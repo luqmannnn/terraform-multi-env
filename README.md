@@ -1,7 +1,7 @@
 # Terraform Multi Env with Terraform Workspace
 
 ### Overview
-There would be times when you need to manage multiple environments (dev, uat, prod etc.) from the same terraform code repository. Instead of using a git branching strategy to manage the different environments (1 tfstate file per branch), you can also use terraform workspaces
+There would be times when you need to manage multiple environments (dev, uat, prod etc.) from the same terraform code repository. Instead of using a git branching strategy to manage the different environments (1 tfstate file per branch), you can also use terraform workspaces.
 
 ### What is terraform workspaces?
 Workspaces in Terraform are simply independently managed state files. A workspace contains everything that Terraform needs to manage a given collection of infrastructure, and separate Workspaces function like completely separate working directories. We can manage multiple environments with Workspaces.
